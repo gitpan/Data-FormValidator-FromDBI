@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: Data-FormValidator-FromDBI
+version: 0.04_01
+author:
+  - Mark Stosberg, E<lt>mark@summersault.comE<gt>
+abstract: Generate FormValidator Profiles from DBI schemas
+license: perl
+requires:
+  DBD::Pg: 1.32
+  DBI: 1.3
+  Params::Validate: 0
+provides:
+  Data::FormValidator::FromDBI:
+    file: lib/Data/FormValidator/FromDBI.pm
+    version: 0.04_01
+generated_by: Module::Build version 0.2611

@@ -1,0 +1,37 @@
+Data::FormValidator::Util
+=========================================
+
+A collection of useful routines related to Data::FormValidator
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+TESTING:
+--------
+
+The tests are designed to connect to a live database.  The following
+environment variables must be set for the tests to run:
+
+    DBI_DSN=dbi:Pg:dbname=<database>
+    DBI_USER=<username>
+    DBI_PASS=<password>
+
+If you are running on a non-standard port, you must add it
+to the DBI_DSN variable like this:
+
+    DBI_DSN=dbi:Pg:dbname=<database>;port=<port#>
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 Mark Stosberg
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
